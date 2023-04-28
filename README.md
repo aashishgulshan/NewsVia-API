@@ -23,5 +23,5 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
 <li>Use open API for news and integrate it.</li>
 </ul><ul>
-<li>The news also refresh at every minute interval by autometicaly.</li>
+<li>The news also refresh at every minute interval by itself.</li>
 </ul>
