@@ -6,9 +6,9 @@ const News = ({cat}) => {
   console.log(cat);
   const fetchNews = async () =>{
     await axios.get(
-      cat ? `https://newsapi.org/v2/top-headlines?country=in&category=${cat}&apiKey=64dca524f32f436b9d332c31d8f2d0d2`
+      cat ? `https://gnews.io/api/v4/top-headlines?category=${cat}&lang=en&country=in&max=10&apikey=45f17dd78f9edd709fcc5609995d63db`
       
-      : "https://newsapi.org/v2/top-headlines?country=in&apiKey=64dca524f32f436b9d332c31d8f2d0d2"
+      : "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=in&max=10&apikey=45f17dd78f9edd709fcc5609995d63db"
     ).then((res)=> setData(res.data.articles));
   };
 
@@ -28,7 +28,7 @@ const News = ({cat}) => {
         {Data ? Data.map((items)=>(
       <>
         <div className='container shadow-2xl rounded-xl p-1 flex-wrap'>
-                <img className='rounded-xl p-1' src={items.urlToImage} max-width={360} alt="Unable to Load Images"/>
+                <img className='rounded-xl p-1' src={items.image} max-width={360} alt="Unable to Load Images"/>
                 <h2 className='font-bold text-xl'>{items.title}</h2>
                 <p className='m-1 text-justify'>{items.description}</p>
                 <a href={items.url} target="_blank" className=' m-1 font-bold text-red-800'>View More...</a>
