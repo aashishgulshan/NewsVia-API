@@ -25,3 +25,50 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
 <li>The news also refresh at every minute interval by itself.</li>
 </ul>
+
+
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `Live Project On`
+`NewsVia API` [Go Live](https://news-via-api.vercel.app/
+
+
+
+### `See news category wise in Single Page`
+
+### `Helth News`
+![image](https://user-images.githubusercontent.com/78717816/235074753-8cb5849a-c260-4512-a56b-7da8d3f3fc56.png)
+
+
+
+### `Science News`
+![image](https://user-images.githubusercontent.com/78717816/235074803-0eefe2c6-497f-411f-93aa-416ccf0a6bb0.png)
+
+
+
+
+### `Entertainment News`
+![image](https://user-images.githubusercontent.com/78717816/235074834-3b6f8c4f-6128-45bc-a3cb-82b70651ef40.png)
+
+
+
+
+### `Here Footer Section to communicate with me` [Click here](https://aashish-gulshan.netlify.app/)
+![image](https://user-images.githubusercontent.com/78717816/235074863-c7770f93-0d9b-4172-9b09-7a9cf9c17880.png)
+
