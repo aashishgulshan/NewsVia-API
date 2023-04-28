@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import News from "./News";
+import Home from "./Home"; 
 
 
 
@@ -26,6 +27,8 @@ export default class Navbar extends Component {
                 </nav>
             </div>
         </header>
+
+        <Home/>
 
         <Routes>
             <Route exact path='/' element={<News/>}></Route>
