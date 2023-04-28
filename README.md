@@ -83,6 +83,15 @@ You may also see any lint errors in the console.
 
 ### `See news category wise in Single Page`
 
+### `Homepage -General News`
+![Screenshot (81)](https://user-images.githubusercontent.com/78717816/235097096-89a31764-7862-4d55-963c-fb5f6631ad0e.png)
+
+
+### `Business News`
+
+![Screenshot (82)](https://user-images.githubusercontent.com/78717816/235097310-332dc5d3-1349-43b6-b123-fd68ff2a9c61.png)
+
+
 ### `Helth News`
 ![image](https://user-images.githubusercontent.com/78717816/235074753-8cb5849a-c260-4512-a56b-7da8d3f3fc56.png)
 
