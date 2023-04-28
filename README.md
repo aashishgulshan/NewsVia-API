@@ -17,6 +17,11 @@ You may also see any lint errors in the console.
 ### `Live Project On`
 `NewsVia API` [Go Live](https://news-via-api.vercel.app/)
 
+
+
+
+### Features Of Application:-
+
 ### `See news category wise in Single Page`
 
 ### `Helth News`
