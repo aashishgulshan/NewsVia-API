@@ -29,15 +29,43 @@ It refreshes the page every minute by itself and is also compatible with every d
 
 
 
-# Getting Started with Create React App
+# Getting Started with Create NewsVia-API App
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
 
-## Available Scripts
+## Dependency For Machine.
+# 1. install node.
+`npm install -g npm`
+[Click Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+# 2. install react.js.
+Click Here [click Here](https://www.javatpoint.com/react-installation)
+# 3. create React App.
+`npx create-react-app my-project`
+`cd my-project`
+# 4. Install Tailwind for style.
+
+`npm install -D tailwindcss`
+`npx tailwindcss init`
+
+Take Reference [Click Here](https://tailwindcss.com/docs/guides/create-react-app).
+
+
+# 5. Install Axios for fetching data from API.
+
+`npm i axios`
+
+Take Referece [Click Here](https://www.npmjs.com/package/axios)
+
+# 6. Install Router for render data in single page.
+
+`npm i react-router`
+
+  Take Reference [Click Here](https://www.npmjs.com/package/react-router)
+
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
