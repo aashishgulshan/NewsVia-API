@@ -112,3 +112,19 @@ You may also see any lint errors in the console.
 ### `Here Footer Section to communicate with me` [Click here](https://aashish-gulshan.netlify.app/)
 ![image](https://user-images.githubusercontent.com/78717816/235074863-c7770f93-0d9b-4172-9b09-7a9cf9c17880.png)
 
+
+
+## Installation
+***
+A little intro about the installation. 
+```
+$ git clone https://github.com/IamAsgn37/NewsVia-API.git
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+$ npm install -D tailwindcss
+$ npx tailwindcss init
+$ npm i axios
+$ npm i react-router
+
+```
