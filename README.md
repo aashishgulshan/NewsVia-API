@@ -19,24 +19,24 @@ You may also see any lint errors in the console.
 
 ### `See news category wise in Single Page`
 
-`Helth News`
+### `Helth News`
 ![image](https://user-images.githubusercontent.com/78717816/235074753-8cb5849a-c260-4512-a56b-7da8d3f3fc56.png)
 
 
 
-`Science News`
+### `Science News`
 ![image](https://user-images.githubusercontent.com/78717816/235074803-0eefe2c6-497f-411f-93aa-416ccf0a6bb0.png)
 
 
 
 
-`Entertainment News`
+### `Entertainment News`
 ![image](https://user-images.githubusercontent.com/78717816/235074834-3b6f8c4f-6128-45bc-a3cb-82b70651ef40.png)
 
 
 
 
-`Here Footer Section to communicate with me` [Click here](https://aashish-gulshan.netlify.app/)
+### `Here Footer Section to communicate with me` [Click here](https://aashish-gulshan.netlify.app/)
 ![image](https://user-images.githubusercontent.com/78717816/235074863-c7770f93-0d9b-4172-9b09-7a9cf9c17880.png)
 
 
