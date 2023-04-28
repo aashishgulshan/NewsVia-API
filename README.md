@@ -14,8 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `Live Project On'
-See the App [Go Live](https://news-via-api.vercel.app/)
+### `Live Project On`
+`NewsVia API` [Go Live](https://news-via-api.vercel.app/)
 
 ### See the NewsVia API Categotys
 ![image](https://user-images.githubusercontent.com/78717816/235074753-8cb5849a-c260-4512-a56b-7da8d3f3fc56.png)
