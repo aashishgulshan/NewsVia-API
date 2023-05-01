@@ -56,7 +56,8 @@ $ npm i react-router
   
 </ul><h2>Installation</h2>
 <hr><ul>
-  
+ 
+A little intro about the installation. 
  
 **Step 1**
 
