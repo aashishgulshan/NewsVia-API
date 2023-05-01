@@ -38,8 +38,20 @@ It refreshes the page every minute by itself and is also compatible with every d
 <li>and many more upcomming...</li>
 </ul><ul>
   
+## Installation
+***
+A little intro about the installation. 
+```
+$ git clone https://github.com/IamAsgn37/NewsVia-API.git
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+$ npm install -D tailwindcss
+$ npx tailwindcss init
+$ npm i axios
+$ npm i react-router
 
-  
+```
   
   
 </ul><h2>Installation</h2>
