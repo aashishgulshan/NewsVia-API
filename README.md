@@ -1,5 +1,8 @@
 ## <h1>NewsVia API</h1>
-
+'''
+`Live Project On`
+`NewsVia API` [Go Live](https://news-via-api.vercel.app/
+'''
 <h3>General Information</h3>
 <hr><p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
 <p>It provides categories-wise news and there is each piece of news separated into different boxes on the webpage, Also this is Single page application using React-Router-Dom.
@@ -36,9 +39,6 @@ It refreshes the page every minute by itself and is also compatible with every d
   
 
 
-
-
-# Getting Started with Create NewsVia-API App
   <hr>
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
