@@ -38,7 +38,7 @@ It refreshes the page every minute by itself and is also compatible with every d
 <li>and many more upcomming...</li>
 </ul><ul>
   
-## Installation
+<!-- ## Installation
 ***
 A little intro about the installation. 
 ```
@@ -51,7 +51,7 @@ $ npx tailwindcss init
 $ npm i axios
 $ npm i react-router
 
-```
+``` -->
   
   
 </ul><h2>Installation</h2>
@@ -61,7 +61,7 @@ A little intro about the installation.
  
 **Step 1**
 
-    npx create-react-app NewsVia-API
+<!--     npx create-react-app NewsVia-API -->
     git clone https://github.com/IamAsgn37/NewsVia-API.git
     cd ../path/to/the/file
 
