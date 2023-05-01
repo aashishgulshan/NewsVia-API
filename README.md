@@ -1,5 +1,4 @@
 <h1>NewsVia API</h1>
-<br>
 </ul><h3>General Information</h3>
 <hr><p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
 <p>It provides categories-wise news and there is each piece of news separated into different boxes on the webpage, Also this is Single page application using React-Router-Dom.
