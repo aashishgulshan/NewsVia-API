@@ -1,5 +1,4 @@
-## NewsVia API
-<hr>
+<h1>NewsVia API</h1>
 <br>
 </ul><h2>Live</h2>
 <hr><ul>
