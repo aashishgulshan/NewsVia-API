@@ -1,7 +1,8 @@
-## <h1>NewsVia API</h1>
-<br><br>
-<h3>Live</h3>
+## NewsVia API
 <hr>
+<br>
+</ul><h2>Live</h2>
+<hr><ul>
 NewsVia-API [Go Live](https://news-via-api.vercel.app/)
 
 </ul><h3>General Information</h3>
@@ -22,6 +23,8 @@ It refreshes the page every minute by itself and is also compatible with every d
 <li>Axios</li>
 <!-- </ul><ul> -->
 <li>Tailwind CSS</li>
+  
+  
 </ul><h2>Features</h2>
 <hr><ul>
   
