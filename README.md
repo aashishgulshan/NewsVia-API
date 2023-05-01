@@ -27,11 +27,11 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
 <li>The news also refresh at every minute interval by itself.</li>
 </ul><ul>
-<li>It provides categories-wise news</li>
+<li>It provides categories-wise news and navigate from top.</li>
 </ul><ul>
-<li>this is Single page application using React-Router-Dom.</li>
+<li>This is Single page application using React-Router-Dom.</li>
 </ul><ul>
-<li>To see the all category news in single page.</li>
+<li>and many more upcomming...</li>
 </ul><ul>
   
 
