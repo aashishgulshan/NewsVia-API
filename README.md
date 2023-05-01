@@ -4,16 +4,15 @@
 <hr><p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
 <p>It provides categories-wise news and there is each piece of news separated into different boxes on the webpage, Also this is Single page application using React-Router-Dom.
 It refreshes the page every minute by itself and is also compatible with every device screen with a beautiful responsive design.</p>
-<hr><ul>
 
 </ul><h2>Technologies Used</h2>
 <hr><ul>
 <li>HTML</li>
-</ul><ul>
+<!-- </ul><ul> -->
 <li>CSS</li>
-</ul><ul>
+<!-- </ul><ul> -->
 <li>JavaScript</li>
-</ul><ul>
+<!-- </ul><ul> -->
 <li>React</li>
 </ul><ul>
 <li>Axios</li>
