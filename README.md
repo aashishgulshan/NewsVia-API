@@ -1,6 +1,10 @@
 <h1>NewsVia API</h1>
 </ul><h3>General Information</h3>
-<hr><p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
+<hr>
+### `Live Project On`
+`NewsVia API` [Go Live](https://news-via-api.vercel.app/).
+
+<p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
 <p>It provides categories-wise news and there is each piece of news separated into different boxes on the webpage, Also this is Single page application using React-Router-Dom.
 It refreshes the page every minute by itself and is also compatible with every device screen with a beautiful responsive design.</p>
 
@@ -109,12 +113,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `Live Project On`
-`NewsVia API` [Go Live](https://news-via-api.vercel.app/).
 
 
-
-### `See news category wise in Single Page`
+### `See Screensorts`
 
 ### `Homepage -General News`
 ![Screenshot (81)](https://user-images.githubusercontent.com/78717816/235097096-89a31764-7862-4d55-963c-fb5f6631ad0e.png)
