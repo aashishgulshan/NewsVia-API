@@ -120,7 +120,7 @@ You may also see any lint errors in the console.
 
 
 
-## About Me.
+## No  copyright issues. Feel free to copy. If you need any help, ping me !
 ***
 A little intro about Developer. 
 ```
