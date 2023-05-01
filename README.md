@@ -17,6 +17,10 @@ It refreshes the page every minute by itself and is also compatible with every d
 <li>JavaScript</li>
 </ul><ul>
 <li>React</li>
+</ul><ul>
+<li>Axios</li>
+</ul><ul>
+<li>Tailwind CSS</li>
 </ul><h2>Features</h2>
 <hr><ul>
 <li>Showing today's news.</li>
