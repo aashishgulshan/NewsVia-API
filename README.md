@@ -51,6 +51,14 @@ It refreshes the page every minute by itself and is also compatible with every d
     npm install -D tailwindcss
     npx tailwindcss init
 
+  
+  
+**Step 3**
+
+    npm i axios
+    npm i react-router-dom
+  
+  
 **Step 3**
 
   npm i axios
