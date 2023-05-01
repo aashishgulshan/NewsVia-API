@@ -124,22 +124,18 @@ You may also see any lint errors in the console.
 ***
 A little intro about the installation. 
 ```
-$ git clone https://github.com/IamAsgn37/NewsVia-API.git
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-$ npm install -D tailwindcss
-$ npx tailwindcss init
-$ npm i axios
-$ npm i react-router
+# Name:- Aashish Gulshan
+# Email:- aashishgulshan@gmail.com
+# LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
+# Contact Us:- https://aashish-gulshan.netlify.app/
 
 ```
 
-
+<!-- 
 
 ### `Feel Free to Connect`
 # Name:- Aashish Gulshan
 # Email:- aashishgulshan@gmail.com
 # LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
 # Contact Us:- https://aashish-gulshan.netlify.app/
-
+ -->
