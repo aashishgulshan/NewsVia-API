@@ -1,7 +1,8 @@
 ## <h1>NewsVia API</h1>
-<hr>
+<br><br>
 <h3>Live</h3>
-NewsVia API [Go Live](https://news-via-api.vercel.app/
+<hr>
+NewsVia-API [Go Live](https://news-via-api.vercel.app/)
 
 </ul><h3>General Information</h3>
 <hr><p>This project is titled NewsVia-API. The major functionality of this project is that it fetches news from API (gnews.io) and the technology used to develop this application are React.JS, HTML, Tailwind, and JavaScript.</p>
