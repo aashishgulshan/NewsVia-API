@@ -53,10 +53,6 @@ It refreshes the page every minute by itself and is also compatible with every d
 
 **Step 3**
 
-
-
-In order to use single page navigation, you have to install react-icons and react-router-dom
-
   npm i axios
   npm i react-router
   
