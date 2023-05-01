@@ -48,26 +48,19 @@ It refreshes the page every minute by itself and is also compatible with every d
 
 **Step 2**
 
-    import {ReactNavbar} from "overlay-navbar"
+    npm install -D tailwindcss
+    npx tailwindcss init
 
 **Step 3**
 
-add ReactNavbar Component in your file while passing appropriate props
 
-    <ReactNavbar />
-  
-  npm install overlay-navbar
 
-In order to use overlay-navbar, you have to install react-icons and react-router-dom
+In order to use single page navigation, you have to install react-icons and react-router-dom
 
-for react-icons ` npm install react-icons`
-for react-router-dom `npm install react-router-dom`
+  npm i axios
+  npm i react-router
   
-  
-  
-  
-  
-  <hr>
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
 
