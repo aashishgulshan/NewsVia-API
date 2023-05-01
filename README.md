@@ -62,6 +62,8 @@ A little intro about the installation.
 **Step 1**
 
     npx create-react-app NewsVia-API
+    git clone https://github.com/IamAsgn37/NewsVia-API.git
+    cd ../path/to/the/file
 
 **Step 2**
 
