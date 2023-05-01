@@ -21,7 +21,6 @@ It refreshes the page every minute by itself and is also compatible with every d
   
 </ul><h2>Features</h2>
 <hr><ul>
-  
 <li>Showing today's news.</li>
 </ul><ul>
 <li>Used open API for news and integrate it.</li>
@@ -36,7 +35,25 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
   
 
-
+</ul><h2>Installation</h2>
+<hr><ul>
+<li>Install node</li>
+  `npm install -g npm`
+<!-- </ul><ul> -->
+<li>CSS</li>
+<!-- </ul><ul> -->
+<li>JavaScript</li>
+<!-- </ul><ul> -->
+<li>React</li>
+<!-- </ul><ul> -->
+<li>Axios</li>
+<!-- </ul><ul> -->
+<li>Tailwind CSS</li>
+  
+  
+  
+  
+  
   <hr>
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
