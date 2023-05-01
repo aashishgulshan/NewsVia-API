@@ -23,26 +23,27 @@ It refreshes the page every minute by itself and is also compatible with every d
   
 <li>Showing today's news.</li>
 </ul><ul>
-<li>Use open API for news and integrate it.</li>
+<li>Used open API for news and integrate it.</li>
 </ul><ul>
 <li>The news also refresh at every minute interval by itself.</li>
-</ul>
+</ul><ul>
 <li>It provides categories-wise news</li>
 </ul><ul>
 <li>this is Single page application using React-Router-Dom.</li>
 </ul><ul>
 <li>To see the all category news in single page.</li>
-  </ul><ul>
+</ul><ul>
   
 
 
 
 
 # Getting Started with Create NewsVia-API App
+  <hr>
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
 
-## Dependency For Machine.
+<h3>Dependency For Machine.</h3>
 # 1. install node.
 `npm install -g npm`
 [Click Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
