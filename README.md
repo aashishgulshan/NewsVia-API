@@ -110,7 +110,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `Live Project On`
-`NewsVia API` [Go Live](https://news-via-api.vercel.app/
+`NewsVia API` [Go Live](https://news-via-api.vercel.app/).
 
 
 
