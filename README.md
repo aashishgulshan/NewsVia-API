@@ -87,7 +87,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
   
-</ul><h2>See Screensorts</h2>
+</ul><h2>Screensorts</h2>
 <hr><ul>  
 
 ### `Homepage -General News`
