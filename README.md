@@ -35,20 +35,13 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
   
 
-</ul><h2>Installation</h2>
-<hr><ul>
-<li>Install node</li>
-  `npm install -g npm`
-<!-- </ul><ul> -->
-<li>CSS</li>
-<!-- </ul><ul> -->
-<li>JavaScript</li>
-<!-- </ul><ul> -->
-<li>React</li>
-<!-- </ul><ul> -->
-<li>Axios</li>
-<!-- </ul><ul> -->
-<li>Tailwind CSS</li>
+## Installation
+npm install overlay-navbar
+
+In order to use overlay-navbar, you have to install react-icons and react-router-dom
+
+for react-icons ` npm install react-icons`
+for react-router-dom `npm install react-router-dom`
   
   
   
