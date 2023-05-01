@@ -3,11 +3,7 @@
 <p>It provides categories-wise news and there is each piece of news separated into different boxes on the webpage, Also this is Single page application using React-Router-Dom.
 It refreshes the page every minute by itself and is also compatible with every device screen with a beautiful responsive design.</p><h2>General Information</h2>
 <hr><ul>
-<li>It provides categories-wise news</li>
-</ul><ul>
-<li>this is Single page application using React-Router-Dom.</li>
-</ul><ul>
-<li>To see the all category news in single page.</li>
+
 </ul><h2>Technologies Used</h2>
 <hr><ul>
 <li>HTML</li>
@@ -23,12 +19,20 @@ It refreshes the page every minute by itself and is also compatible with every d
 <li>Tailwind CSS</li>
 </ul><h2>Features</h2>
 <hr><ul>
+  
 <li>Showing today's news.</li>
 </ul><ul>
 <li>Use open API for news and integrate it.</li>
 </ul><ul>
 <li>The news also refresh at every minute interval by itself.</li>
 </ul>
+<li>It provides categories-wise news</li>
+</ul><ul>
+<li>this is Single page application using React-Router-Dom.</li>
+</ul><ul>
+<li>To see the all category news in single page.</li>
+  </ul><ul>
+  
 
 
 
