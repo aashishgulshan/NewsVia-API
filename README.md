@@ -120,7 +120,7 @@ You may also see any lint errors in the console.
 
 
 
-## No  copyright issues. Feel free to copy. If you need any help, ping me !
+## No © copyright issues. Feel free to copy. If you need any help, ping me !
 ***
 A little intro about Developer. 
 ```
@@ -130,12 +130,3 @@ LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
 Contact Us:- https://aashish-gulshan.netlify.app/
 
 ```
-
-<!-- 
-
-### `Feel Free to Connect`
-# Name:- Aashish Gulshan
-# Email:- aashishgulshan@gmail.com
-# LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
-# Contact Us:- https://aashish-gulshan.netlify.app/
- -->
