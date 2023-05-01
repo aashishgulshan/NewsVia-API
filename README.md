@@ -66,7 +66,7 @@ It refreshes the page every minute by itself and is also compatible with every d
 
 This project was bootstrapped with [Create React App](https://github.com/IamAsgn37/NewsVia-API).
 
-<h3>Dependency For Machine.</h3>
+<!-- <h3>Dependency For Machine.</h3>
 # 1. install node.
 `npm install -g npm`
 [Click Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -99,7 +99,7 @@ Take Referece [Click Here](https://www.npmjs.com/package/axios)
   Take Reference [Click Here](https://www.npmjs.com/package/react-router)
 
 
-In the project directory, you can run:
+In the project directory, you can run: -->
 
 ### `npm run start`
 
