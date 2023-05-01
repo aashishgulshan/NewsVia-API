@@ -40,8 +40,23 @@ It refreshes the page every minute by itself and is also compatible with every d
   
 </ul><h2>Installation</h2>
 <hr><ul>
-  **Step 1. **
-npm install overlay-navbar
+**Step 1**
+In App.js,
+`import {BrowserRouter as Router} from "react-router-dom"`
+and
+Wrap everything inside of `<Router> </Router>`
+
+**Step 2**
+
+    import {ReactNavbar} from "overlay-navbar"
+
+**Step 3**
+
+add ReactNavbar Component in your file while passing appropriate props
+
+    <ReactNavbar />
+  
+  npm install overlay-navbar
 
 In order to use overlay-navbar, you have to install react-icons and react-router-dom
 
