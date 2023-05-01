@@ -35,7 +35,12 @@ It refreshes the page every minute by itself and is also compatible with every d
 </ul><ul>
   
 
-## Installation
+  
+  
+  
+</ul><h2>Installation</h2>
+<hr><ul>
+  **Step 1. **
 npm install overlay-navbar
 
 In order to use overlay-navbar, you have to install react-icons and react-router-dom
