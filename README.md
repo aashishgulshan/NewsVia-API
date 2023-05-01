@@ -120,14 +120,14 @@ You may also see any lint errors in the console.
 
 
 
-## Installation
+## About Me.
 ***
-A little intro about the installation. 
+A little intro about Developer. 
 ```
-# Name:- Aashish Gulshan
-# Email:- aashishgulshan@gmail.com
-# LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
-# Contact Us:- https://aashish-gulshan.netlify.app/
+Name:- Aashish Gulshan
+Email:- aashishgulshan@gmail.com
+LinkedIn:- https://www.linkedin.com/in/aashish-gulshan/
+Contact Us:- https://aashish-gulshan.netlify.app/
 
 ```
 
