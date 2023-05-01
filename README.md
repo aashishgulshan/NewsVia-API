@@ -1,6 +1,6 @@
 <h1>NewsVia API</h1>
 
-### `Live Project On`
+### `Project On Live`
 `NewsVia API` [Go Live](https://news-via-api.vercel.app/).
 
 </ul><h3>General Information</h3>
