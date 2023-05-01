@@ -43,10 +43,8 @@ It refreshes the page every minute by itself and is also compatible with every d
   
  
 **Step 1**
-In App.js,
-`import {BrowserRouter as Router} from "react-router-dom"`
-and
-Wrap everything inside of `<Router> </Router>`
+
+    npx create-react-app NewsVia-API
 
 **Step 2**
 
