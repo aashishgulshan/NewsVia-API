@@ -40,6 +40,8 @@ It refreshes the page every minute by itself and is also compatible with every d
   
 </ul><h2>Installation</h2>
 <hr><ul>
+  
+ 
 **Step 1**
 In App.js,
 `import {BrowserRouter as Router} from "react-router-dom"`
