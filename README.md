@@ -58,11 +58,9 @@ It refreshes the page every minute by itself and is also compatible with every d
     npm i axios
     npm i react-router-dom
   
-  
-**Step 3**
+ **Step 4**
 
-  npm i axios
-  npm i react-router
+    npm run start
   
 <hr>
 
