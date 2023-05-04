@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
+import Loading from './Loading';
 
 const News = ({cat}) => {
   const [Data, setData] = useState("");
@@ -35,7 +36,7 @@ const News = ({cat}) => {
               </div>
       </>
       ))
-      : "Loading..."}
+      : <Loading/>}
       </div>
     </div>
   )
