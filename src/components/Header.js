@@ -9,7 +9,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <Router>
-        <header className="p-2 text-white bg-gradient-to-r from-violet-500 to-fuchsia-500">
+        <header className="p-2 text-white bg-violet-700">
             <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <Link className="flex title-font font-medium items-center md:mb-0" to="/" target={'_self'}>
                     <span className="ml-2 text-3xl text-white">NewsVia API</span>

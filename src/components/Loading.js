@@ -1,11 +1,10 @@
 import React from 'react';
-import '../'
-import bhai from '../assets/loading1.gif';
+import loading from '../assets/loading1.gif';
 
 function Loading() {
   return (
-    <div>
-        <img src={bhai}/>
+    <div className=' min-h-[92vh]'>
+      <img className='mx-auto rounded-lg m-5' src={loading} alt='..'/>
     </div>
   )
 }
