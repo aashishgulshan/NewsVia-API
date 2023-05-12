@@ -12,7 +12,7 @@ export default class Navbar extends Component {
         <header className="p-2 text-white bg-violet-700">
             <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <Link className="flex title-font font-medium items-center md:mb-0" to="/" target={'_self'}>
-                    <span className="ml-2 text-3xl text-white">NewsVia API</span>
+                    <span className="ml-2 text-3xl text-amber-400 font-bold">NewsVia API</span>
                 </Link>
 
                 <nav className="md:ml-auto flex flex-wrap items-center justify-center gap-3 text-l">
