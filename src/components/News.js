@@ -19,7 +19,7 @@ const News = ({cat}) => {
     fetchNews();
     const interval = setInterval(() =>{
      window.location.reload(); 
-    }, 6000);
+    }, 30000);
     return () => clearInterval(interval);
     
     // console.log("Useeffect Called");
