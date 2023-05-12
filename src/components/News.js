@@ -33,7 +33,7 @@ const News = ({cat}) => {
       <div className='shadow-lg ring-1 ring-gray-300 rounded-lg flex-wrap'>
               <img className='rounded-t-lg' src={!items.urlToImage 
                 ? "https://images.hindustantimes.com/img/2022/06/15/1600x900/AFP_9BX2L6_1623489835537_1655275114928.jpg"
-                : items.urlToImage} max-width={360} alt={<Loading/>}/>
+                : items.urlToImage} max-width={360} alt="Not able to load Image"/>
               <h2 className='text-violet-700 p-1 font-semibold font-serif text-xl '>{items.title}</h2>
               <p className=' text-amber-500 ml-1 font-mono'>Published Date:{items.publishedAt.substring(0,10)}</p>
               <a className=' hover:text-sky-600' href={items.url} target='_blank'><p className='p-1'>{items.content}</p></a>
