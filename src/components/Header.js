@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import News from "./News";
 import Home from "./Home"; 
-
-
+import Error from "./Error";
 
 export default class Navbar extends Component {
   render() {
@@ -14,7 +13,6 @@ export default class Navbar extends Component {
                 <Link className="flex title-font font-medium items-center md:mb-0" to="/" target={'_self'}>
                     <span className="ml-2 text-3xl text-amber-400 font-bold">NewsVia API</span>
                 </Link>
-
                 <nav className="md:ml-auto flex flex-wrap items-center justify-center gap-3 text-l">
                 <Link to="/general" className=" hover:scale-105 duration-[400ms]">General</Link> 
                 <Link to="/business" className=" hover:scale-105 duration-[400ms]">Business</Link> 
@@ -23,13 +21,10 @@ export default class Navbar extends Component {
                 <Link to="/health" className=" hover:scale-105 duration-[400ms]">Health</Link>
                 <Link to="/science" className=" hover:scale-105 duration-[400ms]">Science</Link> 
                 <Link to="/entertainment" className=" hover:scale-105 duration-[400ms]">Entertainment</Link> 
-
                 </nav>
             </div>
         </header>
-
         <Home/>
-
         <Routes>
             <Route exact path='/' element={<News/>}></Route>
             <Route exact path='/general' element={<News cat="general"/>}></Route>
@@ -39,10 +34,8 @@ export default class Navbar extends Component {
             <Route exact path='/health' element={<News cat="health"/>}></Route>
             <Route exact path='/science' element={<News cat="science"/>}></Route>
             <Route exact path='/entertainment' element={<News cat="entertainment"/>}></Route>
-            {/* <Route  path='/*' element={<Error/>}></Route>             */}
-
+            <Route  path='/*' element={<Error/>}></Route>            
         </Routes>
-
       </Router>
     )
   }

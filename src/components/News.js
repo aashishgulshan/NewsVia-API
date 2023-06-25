@@ -1,7 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 import { GiArmoredBoomerang } from 'react-icons/gi';
-
 import Loading from './Loading';
 
 const News = ({cat}) => {
@@ -19,14 +18,14 @@ const News = ({cat}) => {
     fetchNews();
     const interval = setInterval(() =>{
      window.location.reload(); 
-    }, 60000);
+    }, 600000);
     return () => clearInterval(interval);
     
     // console.log("Useeffect Called");
     }, [cat]);
 
   return (
-    <div className=' container my-5 px-5'>
+    <div className='mx-auto container my-5 px-5'>
     <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4'>
       {Data ? Data.map((items)=>(
     <>
