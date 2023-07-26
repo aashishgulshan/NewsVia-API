@@ -8,9 +8,10 @@ const News = ({cat}) => {
   console.log(cat);
   const fetchNews = async () =>{
     await axios.get(
-      cat ? `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&category=${cat}&max=10&apikey=cb93a5d7d5db33480b461c07166c675f`
+      cat ? `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&category=${cat}&max=10&apikey=a14009d402499c13aade4df186ed8c02
+      `
       
-      : "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=cb93a5d7d5db33480b461c07166c675f"
+      : "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=a14009d402499c13aade4df186ed8c02"
     ).then((res)=> setData(res.data.articles));
   };
 
@@ -18,7 +19,7 @@ const News = ({cat}) => {
     fetchNews();
     const interval = setInterval(() =>{
      window.location.reload(); 
-    }, 600000);
+    }, 6000);
     return () => clearInterval(interval);
     
     // console.log("Useeffect Called");
