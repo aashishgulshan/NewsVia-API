@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
-import { GiArmoredBoomerang } from 'react-icons/gi';
+import { FcShare, FcLike, FcReading, FcAdvance} from 'react-icons/fc';
 import Loading from './Loading';
 
 const News = ({cat}) => {
@@ -8,9 +8,9 @@ const News = ({cat}) => {
   console.log(cat);
   const fetchNews = async () =>{
     await axios.get(
-      cat ? `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&category=${cat}&max=10&apikey=ce67cab7c2d95e95f5af5dd1b8826f22`
+      cat ? `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&category=${cat}&max=10&apikey=cb93a5d7d5db33480b461c07166c675f`
       
-      : "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=ce67cab7c2d95e95f5af5dd1b8826f22"
+      : "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=cb93a5d7d5db33480b461c07166c675f"
     ).then((res)=> setData(res.data.articles));
   };
 
@@ -18,31 +18,49 @@ const News = ({cat}) => {
     fetchNews();
     const interval = setInterval(() =>{
      window.location.reload(); 
-    }, 60000);
+    }, 600000);
     return () => clearInterval(interval);
     
     // console.log("Useeffect Called");
     }, [cat]);
 
+
   return (
-    <div className='mx-auto container my-5 px-5'>
-    <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4'>
-      {Data ? Data.map((items)=>(
-    <>
-      <div className='shadow-lg ring-1 ring-gray-300 rounded-lg flex-wrap'>
-              <img className='rounded-t-lg' src={!items.image
+    <div className="p-5 bg-gradient-to-r from-fuchsia-200 to-cyan-200 w-[100%]">
+      <div className='grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8'>
+          {Data ? Data.map((items)=>(
+          <div className='shadow-lg rounded-lg hover:scale-105 flex-wrap bg-white'>
+            <div class="h-26 w-full overflow-hidden">
+              <img className='min-h-26 w-full rounded-t-lg overflow-hidden' src={!items.image
                 ? "https://images.hindustantimes.com/img/2022/06/15/1600x900/AFP_9BX2L6_1623489835537_1655275114928.jpg"
-                : items.image} max-width={360} alt="Not able to load Image"/>
-              <h2 className='text-violet-700 p-1 font-semibold font-serif text-xl '>{items.title}</h2>
-              <p className=' text-amber-500 ml-1 font-mono'>Published Date:{items.publishedAt.substring(0,10)}</p>
-              <a className=' hover:text-sky-600' href={items.url} target='_blank'><p className='p-1'>{items.content}</p></a>
-              <a href={items.url} target="_blank" className=' m-1 font-bold text-red-800'>View More...</a>
+                : items.image} alt="Not able to load Image"/>
             </div>
-    </>
-    ))
-    : <Loading/>}
+            <div class="text-sm text-gray-500 m-2">{items.publishedAt.substring(0,10)}</div>
+            <div class="font-bold text-lg text-black m-2"> {items.title} </div>
+            <div class="text-gray-500 m-2 text-sm">
+              <a href={items.url} target='_blank'>{items.description}</a>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex m-2">
+                  <FcLike name="chatbubble-outline" class="m-1 text-gray-500"></FcLike>
+                  <div class="text-gray-500 m-1 mb-4 text-sm">896</div>
+                  <FcReading name="eye-outline" class="m-1 text-gray-500"></FcReading>
+                  <div class="text-gray-500 m-1 mb-4 text-sm">5648</div>
+                <FcShare class="m-1 text-blue-500 hover:text-pink-400 cursor-pointer text-xl"></FcShare>
+              </div>
+              <a href={items.url} target='_blank' class="flex m-2 text-blue-500 hover:text-pink-400 cursor-pointer">
+              <div >Read More</div>
+              <FcAdvance class="m-1"></FcAdvance>
+              </a>           
+            </div>
+          </div>
+        ))
+        : <>
+        
+        <Loading/>
+        </>}
+      </div>
     </div>
-  </div>
   )
 }
 
