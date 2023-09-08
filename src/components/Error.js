@@ -10,7 +10,7 @@ function Error() {
                 <p className='py-2 text-xl'>Error Code: '404'</p>
                 <br/>
                 <a className='text-xl text-yellow-500 bg-gray-900 py-2 px-4 rounded-lg'
-                 href='https://aashish-gulshan.netlify.app'>
+                 href='https://news-via-api.vercel.app/'>
                 Homepage
                 </a>
             </div>
