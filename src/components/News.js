@@ -5,7 +5,7 @@ import Loading from "./Loading";
 
 const News = ({ cat }) => {
   const [Data, setData] = useState("");
-  console.log(Data);
+  // console.log(Data);
   const fetchNews = async () => {
     await axios
       .get(
