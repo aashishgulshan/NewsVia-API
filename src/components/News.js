@@ -1,11 +1,11 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
-import { FcShare, FcLike, FcReading, FcAdvance} from 'react-icons/fc';
+// import { FcShare, FcLike, FcReading, FcAdvance} from 'react-icons/fc';
 import Loading from './Loading';
 
 const News = ({cat}) => {
   const [Data, setData] = useState("");
-  console.log(cat);
+  console.log(Data);
   const fetchNews = async () =>{
     await axios.get(
       cat ? `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&category=${cat}&max=10&apikey=a14009d402499c13aade4df186ed8c02
@@ -23,6 +23,8 @@ const News = ({cat}) => {
     return () => clearInterval(interval);
     
     // console.log("Useeffect Called");
+  // console.log(Data);
+
     }, [cat]);
 
 
